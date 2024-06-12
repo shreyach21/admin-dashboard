@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 const Layout = () => {
   return (
-    <div className="flex flex-row bg-neutral-300 h-screen w-screen overflow-hidden">
+    <div className="flex flex-row bg-neutral-300 min-h-screen w-screen overflow-hidden">
       <Sidebar />
       <div className="flex flex-col w-full">
         <Header />

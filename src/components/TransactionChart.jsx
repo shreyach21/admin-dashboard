@@ -94,7 +94,7 @@ const TransactionChart = () => {
             <Tooltip />
             <Legend />
             <Bar dataKey="Income" fill="#0ea5e9" />
-            <Bar dataKey="Expense" fill="#ea580c" />
+            <Bar dataKey="Expense" fill="#FAC42F" />
           </BarChart>
         </ResponsiveContainer>
       </div>

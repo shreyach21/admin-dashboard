@@ -13,7 +13,7 @@ const Sidebar = () => {
   const linkClasses =
     " hover:no-underline flex gap-x-2 px-2 py-3 hover:bg-neutral-600 active:bg-neutral-700 items-center text-md";
   return (
-    <div className="w-60 bg-neutral-900 flex flex-col text-white py-5">
+    <div className="w-60 bg-neutral-900 flex flex-col text-white py-5 ">
       <div className="flex items-center gap-x-2 px-2 py-5">
         <RiAdminFill fontSize={22} />
         <span className="text-lg">ShreyaAdmin</span>

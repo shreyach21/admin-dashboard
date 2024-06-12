@@ -28,7 +28,7 @@ const Header = () => {
   //   getRandomPhoto();
   // }, []);
   return (
-    <div className="bg-white h-16 px-4 flex justify-between items-center ">
+    <div className="bg-white h-16 px-4 flex justify-between items-center py-2">
       <div className="rounded-sm shadow-sm w-2/5 border  border-black/10 relative px-2">
         <FaSearch
           fontSize={17}
@@ -165,7 +165,7 @@ const Header = () => {
               <MenuItem>
                 {({ active }) => (
                   <div
-                    onClick={() => navigate("/home")}
+                    // onClick={() => logoutHandler()}// for later use
                     className={classNames(
                       active && "bg-gray-100",
                       "text-gray-700 focus:bg-gray-200 rounded-sm px-4 py-2 cursor-pointer"
